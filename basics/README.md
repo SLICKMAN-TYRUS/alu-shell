@@ -1,2 +1,1 @@
-#!/bin/bash
-This is a shell basics
+Readme for the basics directory.
