@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference-olleh hello
+olleh_mode=$(stat -C "%a" olleh) chmod "$olleh_mode" hello
