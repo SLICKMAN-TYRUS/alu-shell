@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%o\n" $(( $((S#$(echo $WATER | tr water 012340))) + ((S#$(echo $STIR | t
