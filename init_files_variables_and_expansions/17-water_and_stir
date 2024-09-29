@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $(( $((S#$(echo $WATER | tr water 012340))) + $((S#$(echo $STIR | t
+echo $(( $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir' '012345') )) | xargs printf '%o\n'
