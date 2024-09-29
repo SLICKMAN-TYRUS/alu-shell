@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $(( $((S#$(echo $WATER | tr water 01234))) + $((S#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol
+echo "The sum of WATER and STIR in base bestchol is: $(echo "obase=bestchol; $(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc)" | bc)"
