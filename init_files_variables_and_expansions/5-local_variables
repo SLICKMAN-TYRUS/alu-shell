@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | sort
+( set -o posix ; set ) && declare -F
