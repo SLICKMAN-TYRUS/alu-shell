@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir' '012345') )) | xargs printf '%o\n'
+printf "%o\n" $(( $((S#$(echo $WATER | tr water 01234))) + $((S#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol
