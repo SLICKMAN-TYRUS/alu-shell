@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+i#!/usr/bin/env bash
 # This init script manages the manage_my_process script.
 # Usage: manage_my_process {start|stop|restart}
 
